@@ -7,8 +7,9 @@ def find_even_values(src)
     sub_arr = src[i]
     j = 0
     while j < sub_arr.length do 
-      if sub_arr[j]
-        sub_arr
+      if sub_arr[j].even
+        puts sub_arr[j]
+      end
       i += 1
     end
     i += 1
